@@ -48,5 +48,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\touha.utilities\touha.utilities.csproj">
+      <Project>{b0d51e30-d5ea-4a1b-b70a-367099766657}</Project>
+      <Name>touha.utilities</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
